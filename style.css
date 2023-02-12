@@ -24,6 +24,8 @@ header{
     height: 90px ;
     background-color:#562EFF ;
     padding:20px 280px 20px 280px ;
+    
+
 
 }
 .navigation{
@@ -111,4 +113,58 @@ hr{
     text-decoration: none;
     font-size: 16px;
     color: #562EFF;
+}
+
+
+
+/* Latest Course Styles */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+    width: 1fr;
+
+}
+.course{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.11)); ;
+    border-radius: 10px;
+}
+
+.course img{
+    height: 100px;
+
+}
+.course-title{
+    margin-top: 20px ;
+    font-size: 20px;
+}
+.course-author{
+    color: #ED6B4F;
+    margin-top: 8px ;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+.filled{
+    color:#FFC014;
+}
+.empty{
+    color: #AEAEAE;
+}
+.course-details{
+    display: flex;
+    justify-content: space-between ;
+}
+.rating{
+    color: #A2A2A2;
+}
+.hour{
+    background-color: #FFE4E8;
+    border-radius: 15px;
+    padding: 4px;
+    
+}
+.hour span{
+    color: #FF4A60;
 }
