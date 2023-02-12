@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Poppins:wght@500&display=swap');
+/* common style */
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+main{
+    background-color: #F3F1FF ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 870px;
+    align-items: center;
+    background-color: white;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+/* header part style */
+
+header{
+    height: 90px ;
+    background-color:#562EFF ;
+    padding:20px 280px 20px 280px ;
+
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-first{
+    display: flex;
+    align-items: center;
+    gap: 15px ;
+    
+}
+.nav-first img{
+    height:50px ;
+    width: 40px;
+}
+.nav-second{
+    display: flex;
+    gap: 30px ;
+    align-items: center;
+}
+.nav-second img{
+    height: 50px;
+    width: 50px;
+    
+}
+
+
+/* Top player section */
+
+.section-title{
+    color: #562EFF;
+    margin: 0 0 20px 0;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px ;
+    
+}
+.player{
+    display: flex;
+    align-items: center;
+    gap:15px ;
+}
+.player h3{
+    font-size: 18px;
+}
+.player img{
+    height: 56px;
+    width: 56px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* top blog styles */
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 50px;
+    row-gap: 25px ;
+}
+.blog{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    
+}
+.blog img{
+    height: 115px ;
+    
+}
+.blog-details h3{
+    font-size: 20px;
+}
+.author-name{
+    color:#9F9F9F ;
+    font-size: 16px;
+}
+.author-name a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #562EFF;
+}
